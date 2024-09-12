@@ -42,7 +42,6 @@ Download the compiled `.exe` file from the [Releases](https://github.com/1mkmk/m
 ## Controls
 
 - **`Page Up`**: Toggle the bot on or off.
-- **`q`**: Quit the bot.
 
 ## Troubleshooting
 
