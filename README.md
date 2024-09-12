@@ -15,6 +15,7 @@ This project provides an automated fishing bot for the "Majestic RP" game. The b
 
 - Windows OS (tested on Windows 10/11)
 - Compiled `.exe` file (no Python installation required)
+- The game must be running in windowed mode.
 
 ## Download
 
@@ -23,21 +24,19 @@ Download the compiled `.exe` file from the [Releases](https://github.com/1mkmk/m
 ## Setup
 
 1. Download the latest `.exe` file from the [Releases](https://github.com/1mkmk/majesticrp-autofishbot/releases).
-2. Place the required images (`splawik.png` and `pasek.png`) in the same directory as the `.exe` file.
-3. Ensure the "Majestic RP" game is running and the window is titled "Majestic RP".
+2. Place the required images (`splawik.png`, `pasek.png`, and `czapka.png`) in the same directory as the `.exe` file.
+3. Ensure the "Majestic RP" game is running in windowed mode and the window is titled "Majestic RP".
+4. **Purchase and equip a pink hat in the game** to start fishing. The hat must be visible for the bot to function correctly.
 
 ## Usage
 
-1. Press **`Page Up`** to toggle the bot on or off.
+1. Press **`Page Up`** to toggle the bot on or off. 
 2. When activated, the bot will automatically detect the "Majestic RP" window and start monitoring for visual elements.
-3. The bot uses template matching to detect specific images:
-   - **`splawik.png`**: Presses `SPACE` once when detected.
-   - **`pasek.png`**: Continuously presses `SPACE` while detected.
-4. The bot tracks the movement direction of a pink object:
+3. The bot tracks the movement direction of a pink object:
    - Presses `D` if the object moves to the right.
    - Presses `A` if the object moves to the left.
    - Releases the keys if the object stops moving.
-5. Press **`Page Up`** again to toggle the bot off.
+4. Press **`Page Up`** again to toggle the bot off.
 
 ## Controls
 
@@ -48,6 +47,7 @@ Download the compiled `.exe` file from the [Releases](https://github.com/1mkmk/m
 - **Bot Not Detecting Colors**: Adjust the RGB and HSV values in the code if the bot is not detecting colors correctly.
 - **Incorrect Key Presses**: Ensure the game window is titled exactly "Majestic RP" and is not minimized.
 - **Bot Not Activating**: Make sure to run the `.exe` file with administrative privileges if needed.
+- **Game Not in Windowed Mode**: Verify that "Majestic RP" is running in windowed mode for the bot to function properly.
 
 ## Building from Source
 
