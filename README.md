@@ -18,11 +18,11 @@ This project provides an automated fishing bot for the "Majestic RP" game. The b
 
 ## Download
 
-Download the compiled `.exe` file from the [Releases](https://github.com/1mkmk/majesticrp-autofishbot) section.
+Download the compiled `.exe` file from the [Releases](https://github.com/1mkmk/majesticrp-autofishbot/releases) section.
 
 ## Setup
 
-1. Download the latest `.exe` file from the [Releases](https://github.com/1mkmk/majesticrp-autofishbot).
+1. Download the latest `.exe` file from the [Releases](https://github.com/1mkmk/majesticrp-autofishbot/releases).
 2. Place the required images (`splawik.png` and `pasek.png`) in the same directory as the `.exe` file.
 3. Ensure the "Majestic RP" game is running and the window is titled "Majestic RP".
 
